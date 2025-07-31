@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anshika Mohanty's Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: white;
+      color: #333;
+      line-height: 1.6;
+    }
+    nav {
+      background-color: #007BFF;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    nav .container {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background-color: #eaf3fc;
+      padding: 60px 20px;
+    }
+    .hero .container {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .hero-text {
+      flex: 1;
+      padding-right: 20px;
+    }
+    .hero-text h1 {
+      font-size: 2.5rem;
+      color: #007BFF;
+    }
+    .hero-text p {
+      font-size: 1.2rem;
+      margin: 10px 0 20px;
+    }
+    .hero-image img {
+      max-width: 250px;
+      border-radius: 50%;
+      border: 4px solid #007BFF;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    section {
+      padding: 60px 20px;
+    }
+    section h2 {
+      color: #007BFF;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .skill, .project {
+      flex: 1 1 300px;
+      background-color: #f5f9ff;
+      padding: 15px;
+      border: 1px solid #007BFF;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
+    }
+    .project img {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    a.download-btn {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <h1 style="color:white;">Anshika</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h1>Anshika Mohanty</h1>
+        <p>Hey, I'm Anshika — a high schooler passionate about new upcoming tech and innovations!</p>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+      <div class="hero-image">
+        <img src="Snapchat-1368337737.jpg" alt="Anshika's Photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm Anshika, an 11th-grade student passionate about technology, innovation, and problem-solving.
+        With a strong academic foundation in Physics, Chemistry, and Mathematics (PCM), I enjoy exploring
+        the intersection of science and technology. I’m currently learning programming and working on
+        beginner projects in coding, web development, and electronics. I actively seek opportunities to
+        grow through online courses, hands-on experiments, and tech challenges. My goal is to use
+        technology to solve real-world problems and build impactful solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">Python (basic programming and scripting)</div>
+        <div class="skill">HTML/CSS (intro to web development)</div>
+        <div class="skill">Prompt engineering with AI tools (like ChatGPT)</div>
+        <div class="skill">Critical thinking and problem-solving</div>
+        <div class="skill">Research and self-learning</div>
+        <div class="skill">Creative thinking and design tools (e.g., Canva)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>AI Prompt Showcase</h3>
+          <p>Experimented with ChatGPT to create educational and creative prompts.</p>
+        </div>
+        <div class="project">
+          <h3>Personal Website</h3>
+          <p>This portfolio built using HTML and CSS to highlight my skills and journey.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <a href="Untitled design.pdf" download class="download-btn">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:anshikaamohanty02@gmail.com">anshikaamohanty02@gmail.com</a></p>
+      <p>Phone: 8860071177</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Anshika Mohanty. All rights reserved.</p>
+  </footer>
+</body>
+</html>
